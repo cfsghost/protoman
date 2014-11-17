@@ -1,0 +1,25 @@
+{
+  "name": "protoman",
+  "version": "0.0.1",
+  "author": "Fred Chiend <cfsghost@gmail.com>",
+  "description": "Framework to manage your network protocol",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cfsghost/protoman.git"
+  },
+  "homepage": "http://github.com/cfsghost/protoman",
+  "main": "./lib/protoman.js",
+  "keywords": [
+    "network",
+    "protocol",
+    "rpc"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "dependencies": {
+    "msgpack": "^0.2.4"
+  }
+}
