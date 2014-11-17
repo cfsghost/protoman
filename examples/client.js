@@ -15,8 +15,9 @@ var client = net.connect({ port: 1234 }, function() {
 	});
 
 	sum.on('data', function(packet) {
-		console.log(packet.content);
-//		this.send(packet.content);
+		var content = this.getContent(packet);
+		console.log(content);
+		this.send(content);
 	});
 });
 

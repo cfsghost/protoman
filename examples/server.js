@@ -22,8 +22,15 @@ var server = net.createServer(function(client) {
 
 		console.log('Receiving', content);
 
+		// Send result back
 		this.send({
 			result: content.a + content.b
+		});
+
+		// Waiting for client response
+		this.on('data', function(packet) {
+			console.log('echo', packet);
+			console.log(this.getContent(packet));
 		});
 	});
 });
