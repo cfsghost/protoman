@@ -1,7 +1,7 @@
 protoman
 ========
 
-ProtoMan is a useful framework to create your own network protocol for different propose, something's like RPC, tunnel and so on.
+ProtoMan is a useful framework to create your own network protocol for different purposes, something's like RPC, tunnel and so on.
 
 [![NPM](https://nodei.co/npm/protoman.png)](https://nodei.co/npm/protoman/)
 

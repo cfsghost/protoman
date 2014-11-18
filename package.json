@@ -1,6 +1,6 @@
 {
   "name": "protoman",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Fred Chiend <cfsghost@gmail.com>",
   "description": "Framework for your network protocol",
   "repository": {
